@@ -1,10 +1,12 @@
-import GlobalStyles from '../src/styles/global'
+import React from 'react'
+
+import { ChakraProvider, CSSReset } from '@chakra-ui/react'
 
 export const decorators = [
   (Story) => (
-    <>
-      <GlobalStyles />  
+    <ChakraProvider>
+      <CSSReset />
       <Story />
-    </>
+    </ChakraProvider>
   )
 ]

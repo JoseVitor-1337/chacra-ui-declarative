@@ -1,23 +1,19 @@
 import { AppProps } from "next/app"
-import Head from "next/head"
+import Head from "components/Head"
 
-import GlobalStyles from "styles/global"
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react"
+
+import Fonts from "styles/fonts"
+import theme from "styles/theme"
 
 function App({ Component, pageProps }: AppProps) {
 	return (
-		<>
-			<Head>
-				<title>React Avançado - Boilerplate</title>
-				<link rel="manifest" href="/manifest.json" />
-				<meta
-					name="description"
-					content="Aprendendo as ferramentas Typescript, NextJS, Jest, ReactJS e Styled Components"
-				/>
-			</Head>
-			<GlobalStyles />
-
+		<ChakraProvider theme={theme}>
+			<Fonts />
+			<ColorModeScript initialColorMode="light" />
+			<Head />
 			<Component {...pageProps} />
-		</>
+		</ChakraProvider>
 	)
 }
 

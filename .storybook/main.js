@@ -3,6 +3,11 @@ module.exports = {
     "../src/components/**/stories.tsx",
   ],
   "addons": [
-    "@storybook/addon-essentials"
-  ]
+    "@storybook/addon-essentials",
+  ],
+  webpackFinal: (config) => {
+    config.resolve.modules.push(`${process.cwd()}/src`)
+    
+    return config
+  }
 }

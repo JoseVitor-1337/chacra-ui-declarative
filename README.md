@@ -1,6 +1,6 @@
-# Simple TODO
+## Simple TODO
 
-## Learning the basic of Chakra UI
+### Learning the basic of Chakra UI
 
 <br />
 

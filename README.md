@@ -30,11 +30,11 @@ Open you Terminal and run this commands:
 ```
 https://github.com/JoseVitor-1337/chacra-ui-declarative.git
 
-cdchacra-ui-declarative
+cd chacra-ui-declarative
 
-npm install
+npm install 
 
-npm run dev
+npm start
 ```
 
 Congratulations! the will be running on [http://localhost:3000](http://localhost:3000)

@@ -1,12 +1,13 @@
-# Board App
+# Simple TODO
 
-### Learning NextJS with typescript using github API and google firebase
+## Learning the basic of Chakra UI
 
 <br />
 
 ### Features and concepts used
 
 - React.js
+- Next.js
 - React Hooks
 - Chakra UI
 
@@ -29,13 +30,13 @@
 Open you Terminal and run this commands:
 
 ```
-git clone https://github.com/JoseVitor-1337/board-app.git
+https://github.com/JoseVitor-1337/chacra-ui-declarative.git
 
-cd board-app
+cdchacra-ui-declarative
 
 npm install
 
 npm run dev
 ```
 
-Congratulations! the will be running on [http://localhost:5000](http://localhost:5000)
+Congratulations! the will be running on [http://localhost:3000](http://localhost:3000)

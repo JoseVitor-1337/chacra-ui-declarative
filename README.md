@@ -1,7 +1,5 @@
 ## Simple TODO
 
-### Learning the basic of Chakra UI
-
 ### Features and concepts used
 
 - React.js
